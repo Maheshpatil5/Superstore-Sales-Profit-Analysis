@@ -1,0 +1,38 @@
+
+# Python Virtual Environment
+.venv/
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Environment and Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Local Database Credentials
+mysql_connection.py
+
+# Temporary Files
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+
+
+
+
+
+# Temporary Superstore Import Files
+data/superstore_batch_*.csv
+data/only_missing_300_rows.csv
+data/missing_row_ids.csv
+
+# Local Backup Files
+*.bak
+*.log
